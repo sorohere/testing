@@ -11,7 +11,7 @@ class NameRequest(BaseModel):
 # GET endpoint
 @app.get("/")
 def welcome_user():
-    return JSONResponse(content={"message": "Hello! Welcome to the API 😊"})
+    return JSONResponse(content={"message": "Hello! Welcome to the API"})
 
 # POST endpoint
 @app.post("/welcome")

@@ -1,0 +1,14 @@
+{
+  "name": "q09-online-training",
+  "version": "1.0.0",
+  "description": "An online training site with Express routing.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "author": "",
+  "license": "ISC"
+} 

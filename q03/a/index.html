@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student marks</title>
+</head>
+<body>
+    <h1>student marks</h1>
+
+    <label for="usn">usn</label>
+    <input type="text" id="usn"><br>
+
+    <label for="sub">sub:</label>
+    <input type="text" name="subname" id="subname"><br>
+
+    <label for="subcode">subcode:</label>
+    <input type="text" name="subcode" id="subcode"><br>
+
+    <label for="cie">cie:</label>
+    <input type="number" name="cie" id="cie" min="0" max="50"><br>
+
+    <label for="see">see</label>
+    <input type="number" name="see" id="see" min="0" max="50"><br>
+
+    <button onclick="solve()">get details</button>
+
+    <h1>results</h1>
+    <p id="result"></p>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
